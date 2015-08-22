@@ -43,3 +43,4 @@ group :development, :test do
   gem 'spring'
 end
 gem 'capistrano3-puma', github: "seuros/capistrano-puma"
+gem 'capistrano-rvm'
