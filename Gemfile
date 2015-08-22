@@ -37,7 +37,7 @@ group :development do
     gem 'capistrano-bundler', require: false
     gem 'capistrano3-puma', github: "seuros/capistrano-puma"
 end
-
+gem 'whenever'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
