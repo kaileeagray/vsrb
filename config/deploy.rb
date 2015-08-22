@@ -11,7 +11,7 @@ set :repo_url, 'git@github.com:andrewcottage/vsrb.git'
 set :deploy_to, '/home/deploy/vsrb'
 
 set :rails_env, 'production'
-
+set :puma_nginx, :app
 set :puma_rackup, -> { File.join(current_path, 'config.ru') }
 set :puma_state, "#{shared_path}/tmp/pids/puma.state"
 set :puma_pid, "#{shared_path}/tmp/pids/puma.pid"
