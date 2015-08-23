@@ -10,8 +10,6 @@ set :repo_url, 'git@github.com:andrewcottage/vsrb.git'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/deploy/vsrb'
 
-set :rvm_type, :system
-
 set :rails_env, 'production'
 set :puma_nginx, :app
 set :puma_rackup, -> { File.join(current_path, 'config.ru') }
