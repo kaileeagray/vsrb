@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Puma as the app server
-gem 'puma'
+gem 'puma', '~> 2.13.4'
 
 # Use Capistrano for deployment
 group :development do
