@@ -28,6 +28,7 @@ set :puma_worker_timeout, nil
 set :puma_init_active_record, false
 set :puma_preload_app, false
 set :nginx_use_ssl, false
+set :puma_prune_bundler, true
 
 # set :scm, :git
 
