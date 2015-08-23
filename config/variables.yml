@@ -1,6 +1,7 @@
 defaults: &defaults
   secret: 1bc3e9fe822beb7303f896b6756f97d89ce45e519b4e7aa374ee109889ffb9818db6a3bab7ea0f537a82c52bfc7e3742b31b9b478e720328ac9524dd413dc7e5
-
+  gmail_username: ''
+  gmail_password: ''
 development:
   <<: *defaults
 
