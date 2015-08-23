@@ -17,7 +17,7 @@ set :puma_access_log, "#{shared_path}/log/puma_access.log"
 set :puma_error_log, "#{shared_path}/log/puma_error.log"
 set :puma_role, :app
 set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
-set :puma_threads, [0, 16]
+set :puma_threads, [4, 36]
 set :puma_workers, 0
 set :puma_worker_timeout, nil
 set :puma_init_active_record, false
