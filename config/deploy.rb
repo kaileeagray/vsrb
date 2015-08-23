@@ -26,7 +26,7 @@ set :puma_threads, [0, 16]
 set :puma_workers, 0
 set :puma_worker_timeout, nil
 set :puma_init_active_record, false
-set :puma_preload_app, false
+set :puma_preload_app, true
 set :nginx_use_ssl, false
 
 # set :scm, :git
