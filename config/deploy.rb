@@ -1,6 +1,11 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
+require "bundler/capistrano"
+require "rvm/capistrano"
+before "deploy:assets:precompile", "bundle:install"
+
+
 set :application, 'vsrb'
 set :repo_url, 'git@github.com:andrewcottage/vsrb.git'
 
